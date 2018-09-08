@@ -1,20 +1,30 @@
 # Getting and Cleaning Data Project - The Code Book
-This document describes variables used in the *run_analysis.R* script
+This document describes variables used in the *run_analysis.R* script.
 The script is devided into sections (commented within the R file):
 ## Download files into R
 *acts* - the data frame with the activity lablels
+
 *features* - the vector with variable names
+
 *X_test* - data frame of measurements (testing set)
+
 *y_test* - data frame of activity indexes (testing set)
+
 *X_train* - data frame of measurements (training set)
+
 *y_train* - data frame of activity indexes (training set)
+
 *subject_test* - data frame of subject indexes (testing set)
+
 *subject_train* - data frame of subject indexes (training set)
 
 ## Combine training and testing sets
 Rows of *X_test* and *X_train* were combined into *X_all*
+
 Rows of *y_test* and *y_train* were combined into *y_all*
+
 Rows of *subject_test* and *subject_train* were combined into *subject_all*
+
 Columns of subject_all, *X_all*, *y_all* were combined into *xy_all*
 
 ## Naming the variables
@@ -34,4 +44,4 @@ The data set was groupped by subject and activity to result in the new table *gr
 *groups* was transformed to *means*, in which averages of all the values for each activity (6) for each subject (30) were calculated (total 180)
 
 ## Saving table with the results
-THe results were saved as "tidy.csv" file
+The results were saved as "tidy.csv" file
