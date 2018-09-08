@@ -13,15 +13,13 @@ testing set and training set, resp.)
 links all of the above data in a single data frame
 ## 3. Naming the variables - 
 names the columns of the data frame from the "features.txt" vector
-## 4. View the data to check everything looks OK - 
-views parts of the table and classes of variables
-## 5. Labeling activity column - 
+## 4. Labeling activity column - 
 a line of code to name the activities in the data set
-## 6. Extracting mean and std for each measurement - 
+## 5. Extracting mean and std for each measurement - 
 extracts only columns with mean and standard deviation for each measurement (total 66)
-## 7. Making variable names more descriptive and clear - 
+## 6. Making variable names more descriptive and clear - 
 replaces "t" and "f" with "time" and "freq" (frequency) and removing brackets
-## 8. Making groups and calcuclating average values of each variable for each activity and each subject -
+## 7. Making groups and calcuclating average values of each variable for each activity and each subject -
 groups the data set by activity and subject and calculates a mean for each column:
 the calculated value is for each activity (1-6) for each subject (1-30) - total: 180 observations
-## 9. Saving the "tidy.txt" table 
+## 8. Saving the "tidy.txt" table 
