@@ -24,4 +24,4 @@ replaces "t" and "f" with "time" and "freq" (frequency) and removing brackets
 ## 8. Making groups and calcuclating average values of each variable for each activity and each subject -
 groups the data set by activity and subject and calculates a mean for each column:
 the calculated value is for each activity (1-6) for each subject (1-30) - total: 180 observations
-## 9. Saving the "tidy.csv" table 
+## 9. Saving the "tidy.txt" table 
