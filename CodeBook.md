@@ -20,8 +20,8 @@ data frame of subject indexes (testing set)
 data frame of subject indexes (training set)
 
 ## Combine training and testing sets
-Rows of X_test and X_train were combined into X_all
-Rows of y_test and y_train were combined into y_all
+Rows of **X_test** and <X_train> were combined into X_all
+Rows of **y_test** and **y_train** were combined into y_all
 Rows of subject_test and subject_train were combined into subject_all
 Columns of subject_all, X_all, y_all were combined into xy_all
 
