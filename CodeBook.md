@@ -44,4 +44,4 @@ The data set was groupped by subject and activity to result in the new table *gr
 *groups* was transformed to *means*, in which averages of all the values for each activity (6) for each subject (30) were calculated (total 180)
 
 ## Saving table with the results
-The results were saved as "tidy.csv" file
+The results were saved as "tidy.txt" file
